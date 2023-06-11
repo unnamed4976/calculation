@@ -1,0 +1,41 @@
+'use strict';
+
+{
+    
+  const one = document.getElementById('one');
+  const two = document.getElementById('two');
+  const three = document.getElementById('three');
+  const four = document.getElementById('four');
+
+  const btn = document.getElementById('btn');
+  const btn2 = document.getElementById('btn2');
+  const btn3 = document.getElementById('btn3');
+  const btn4 = document.getElementById('btn4');
+  const btn5 = document.getElementById('btn5');
+
+  const fin = document.getElementById('fin');
+  
+  const ans1 = document.getElementById('ans1');
+  const ans2 = document.getElementById('ans2');
+  
+  btn.addEventListener('click', () => {
+  fin.textContent = `足した答えは、${eval(one.value) + eval(two.value)}`;
+  });
+
+  btn2.addEventListener('click', () => {
+  fin.textContent = `引いた答えは、${eval(one.value) - eval(two.value)}`;
+});
+
+  btn3.addEventListener('click', () => {
+  fin.textContent = `掛けた答えは、${eval(one.value) * eval(two.value)}`;
+});
+
+  btn4.addEventListener('click', () => {
+  fin.textContent = `割った商は、${eval(one.value) / eval(two.value)}`;
+});
+
+  btn5.addEventListener('click', () => {
+  fin.textContent = `割った余りは、${eval(one.value) % eval(two.value)}`;
+});
+    
+}

@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+body {
+  background: lightgrey;
+  width: 400px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 30px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+input {
+  font-size: 36px;
+  height: 40px;
+}
+
+#fin {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+#btn {
+  margin-top: 20px;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: rgb(108, 108, 108);
+  color: white;
+}
+
+button:hover {
+  opacity: .7;
+}
+
+button:active {
+  opacity: .4;
+}
+
+
+
+.href {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.abc {
+  display: flex;
+  flex-direction: column;
+}
